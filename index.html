@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .timer,
+    .controls {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+    }
+
+    .controls {
+      margin-top: 20px;
+    }
+
+    .list {
+      margin: 0;
+      max-width: 400px;
+      margin: 20px auto;
+    }
+
+    .timer-item {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="timer">
+    <span class="hours">00</span>:
+    <span class="minutes">00</span>:
+    <span class="seconds">00</span>
+  </div>
+
+  <div class="controls">
+    <button class="start">Start</button>
+    <button class="stop">stop</button>
+    <button class="reset">reset</button>
+    <button class="round">round</button>
+  </div>
+
+  <ul class="list">
+    <!-- <li class="timer-item">
+      <span class="timer">01:30:01</span>
+      <span class="close">&times;</span>
+    </li> -->
+  </ul>
+
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
